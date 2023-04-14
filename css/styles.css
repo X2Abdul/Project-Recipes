@@ -1,20 +1,43 @@
-
 *{
     background-color:mistyrose;
     text-align: left;
     color: black;
+    /* outline: 3px solid red; */
+    max-width: 800px;
+    margin: auto;
 }
 
 .title{
     font-family: 'Lucida Sans';
     text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.title h2{
+    font-family: 'Lucida Sans';
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .text{
     font-size:large;
     font-family: Georgia;
+    
 }
 
+.header video{
+    display: block;
+}
+
+.description{
+    font-size:large;
+    font-family: Georgia;
+    text-align: center;
+}
 ul{
     list-style-type: square;
 }
@@ -23,56 +46,81 @@ menu{
     display:flex;
 }
 
-.menu a{
-    display: inline-block;
-    margin-right: 100px;
-    width: 200px;
-    text-align: center;
-    text-transform: uppercase;
-    background-color:thistle;
-    transition-duration: 0.4s;
-    border-radius: 25px;
-    text-decoration: none;
-}
-
-
-.menu a:hover{
-    background-color: mistyrose; 
-    color: black;
-    text-decoration: underline;
-}
-
-
 .linkbutton{
-    display: inline-block;
-    margin-right: 100px;
     width: 200px;
     text-align: center;
     text-transform: uppercase;
-    background-color:thistle;
     transition-duration: 0.4s;
     border-radius: 25px;
     text-decoration: none;
+    text-decoration: underline;
+    display: block;
+    align-items:center;
+    margin-right: auto;
 }
 
 .linkbutton:hover{
-    background-color: mistyrose; 
-    color: yellowgreen;
+    color: black;
+    background-color:thistle;
+}
+
+.mainlinkbtn{
+    display: inline-block;
+    margin-right: 100px;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    transition-duration: 0.4s;
+    border-radius: 25px;
+    text-decoration: none;
     text-decoration: underline;
+}
+
+.mainlinkbtn:hover{
+    color: black;
+    background-color:thistle;
 }
 
 
 .menu img{
-    max-width: auto;
+    display:inline-block;
+    max-width: 200px;
     max-height: auto;
     margin-right: 100px;
 }
 
+.header img{
+    
+    max-width: 500px;
+    margin: auto;
+}
+
+.header p,h1{
+    text-align: center;
+}
+
+.header p{
+    font-size: larger;
+}
+
+.footer p{
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer a{
+    display: block;
+    align-items:center;
+    margin-right: auto;
+}
 
 button{
-    outline-style:dashed;
+    display: block;
+    text-align: center;
+    font-size: larger;
     border-radius: 25px;
     transition-duration: 0.4s;
+    outline: transparent;
 }
 
 button:hover{
@@ -80,4 +128,11 @@ button:hover{
     color: white;
 }
 
+ul, ol{
+    display: inline-block;
+    
+    list-style-position: outside;
+    padding-left: 25px;
+    margin-left: 150px;
+}
 
